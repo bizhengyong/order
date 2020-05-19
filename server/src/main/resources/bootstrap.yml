@@ -12,6 +12,9 @@ spring:
         myMessage:
           group: order
           content-type: application/json
+  redis:
+    host: localhost
+    port: 6379
 eureka:
   client:
     service-url:
